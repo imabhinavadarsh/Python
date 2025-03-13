@@ -1,0 +1,25 @@
+                                    Python Identifiers
+In Python, identifiers are the names used to define variables, functions, classes, and other objects.
+
+Rules for Identifiers:
+✅ Can contain letters (A-Z, a-z), digits (0-9), and underscores (_) only.
+✅ Must not start with a digit (e.g., 1variable ❌).
+✅ Cannot use Python keywords (e.g., def, class, if, etc.).
+✅ Case-sensitive (MyVar and myvar are different).
+✅ No length limit, but overly long names are not recommended for readability.
+
+Examples of Valid Identifiers:
+my_var = 10       # Valid
+_name = "Python"  # Valid
+user123 = "John"  # Valid
+MyClass = "OOP"   # Valid
+2name = "Error"   # ❌ Starts with a digit
+my-var = 5        # ❌ Contains a hyphen (-)
+class = "Python"  # ❌ Uses a keyword
+
+Q> Difference Between x, _x, __x, and __x__ in Python
+In Python, the way an identifier (variable or function) is named affects its behavior, particularly in classes.
+       x	                Normal variable name (public)
+      _x	                Protected: Indicates it's for internal use (not enforced, just a convention)
+     __x	                Private: Name-mangled by Python (useful in classes)
+     __x__	              Dunder (Double Underscore) Method: Special system-defined name

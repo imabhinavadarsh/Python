@@ -1,0 +1,5 @@
+If i want a part of the string like sub-string then we should go for slice operator.
+
+s[begin : end]
+
+return sub-string(slice) forom begin index to end -1 index.
